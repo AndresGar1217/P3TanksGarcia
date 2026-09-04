@@ -273,6 +273,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.45
       objectReference: {fileID: 0}
+    - target: {fileID: 2705198261706269363, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2705198261706269363, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870094149271408785, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_MaxLaunchForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150801912652395797, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6234944078012863235, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_Speed
       value: 10
@@ -284,6 +300,14 @@ PrefabInstance:
     - target: {fileID: 6234944078012863235, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_PlayerNumber
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6388275943531945000, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_Value
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6388275943531945000, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_MaxValue
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7728300588300559325, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_Name
@@ -336,10 +360,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7728300588300559325, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1830560824}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
 --- !u!1 &1462269594
 GameObject:
@@ -468,33 +489,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &1830560823 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7728300588300559325, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
-  m_PrefabInstance: {fileID: 1063157414}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1830560824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1830560823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e4cc0827b572b5408b2cd8eb8b456b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankMovement
-  m_PlayerNumber: 1
-  m_Speed: 12
-  m_TurnSpeed: 180
-  m_IsDirectControl: 0
-  m_MovementAudio: {fileID: 0}
-  m_EngineIdling: {fileID: 0}
-  m_EngineDriving: {fileID: 0}
-  m_PitchRange: 0.2
-  m_IsComputerControlled: 0
-  m_InputUser: {fileID: 0}
 --- !u!4 &1830560829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8028192817358650525, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
@@ -620,6 +614,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.45
       objectReference: {fileID: 0}
+    - target: {fileID: 2705198261706269363, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2705198261706269363, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870094149271408785, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_MaxLaunchForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150801912652395797, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6234944078012863235, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_Speed
       value: 10
@@ -627,6 +637,10 @@ PrefabInstance:
     - target: {fileID: 6234944078012863235, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_TurnSpeed
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6388275943531945000, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
+      propertyPath: m_MaxValue
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7728300588300559325, guid: 6e782939352ed3c4692d563b14f00bdc, type: 3}
       propertyPath: m_Name
