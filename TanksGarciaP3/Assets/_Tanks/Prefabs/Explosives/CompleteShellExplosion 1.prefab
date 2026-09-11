@@ -4843,7 +4843,7 @@ GameObject:
   - component: {fileID: 19960184}
   - component: {fileID: -6988948873659476605}
   m_Layer: 0
-  m_Name: CompleteShellExplosion
+  m_Name: CompleteShellExplosion 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4874,7 +4874,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195792}
   serializedVersion: 8
-  lengthInSec: 1.5
+  lengthInSec: 12.04
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 3
@@ -9735,7 +9735,7 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: 3a77defcde1caaa40b6f7502547e0c4e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: -2.15
   Loop: 0
   Mute: 0
   Spatialize: 0
